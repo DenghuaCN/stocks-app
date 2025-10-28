@@ -337,17 +337,3 @@ export const WATCHLIST_TABLE_HEADER = [
     'Alert',
     'Action',
 ];
-
-
-export const COUNTRY_OPTIONS = [
-    { value: 'US', label: 'United States' , src: "../public/assets/country/US.png"},
-    { value: 'CA', label: 'Canada' , src: "../public/assets/country/CA.png" },
-    { value: 'GB', label: 'United Kingdom' , src: "../public/assets/country/GB.png" },
-    { value: 'AU', label: 'Australia' , src: "../public/assets/country/AU.png" },
-    { value: 'DE', label: 'Germany' , src: "../public/assets/country/DE.png" },
-    { value: 'FR', label: 'France' , src: "../public/assets/country/FR.png" },
-    { value: 'IN', label: 'India' , src: "../public/assets/country/IN.png" },
-    { value: 'JP', label: 'Japan' , src: "../public/assets/country/JP.png" },
-    { value: 'CN', label: 'China' , src: "../public/assets/country/CN.png" },
-    { value: 'BR', label: 'Brazil' , src: "../public/assets/country/BR.png" },
-];
