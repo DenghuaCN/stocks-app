@@ -43,16 +43,6 @@ const SelectField = ({
                   className="focus:bg-gray-600 focus:text-white"
                 >
 
-                  {name === 'country' && (
-                    <Image
-                      src={`/assets/country/${option.value}.png`}
-                      alt="country icon"
-                      width={128}
-                      height={128}
-                      className="h-8 w-auto border-r rounded-md"
-                    />
-                  )}
-
                   {option.label}
                 </SelectItem>
               ))}
